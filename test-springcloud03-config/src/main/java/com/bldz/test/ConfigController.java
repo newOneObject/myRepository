@@ -1,6 +1,5 @@
 package com.bldz.test;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConfigController {
 
     public  String sayHello(@RequestParam(value = "name") String name ){
-        return ;
+        return name + ", sayHello";
     }
 
 }
