@@ -5,7 +5,7 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 /**
  * Created by pactera on 2017/9/21.
  */
-@FeignClient(name = "",configuration = )
+@FeignClient(name = "",configuration = FooConfiguration.class)
 public interface FeignClientService {
 
 }
